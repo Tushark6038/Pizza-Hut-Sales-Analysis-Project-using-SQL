@@ -5,9 +5,10 @@ order_id int not null,
 pizza_id text not null,
 quantity int not null,
 primary key (order_details_id) );
+-- Note: For all csv files we have used Import Table Wizard 
 
 
-
+-- Questions :
 -- Retrieve the total number of orders placed. 
 
 SELECT 
